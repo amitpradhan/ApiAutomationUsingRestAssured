@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Amit",
+      "lastName": "Pradhan",
+      "id": 1,
+      "subjectId": 2
+    },
+    {
+      "firstName": "Jhon",
+      "lastName": "Snow",
+      "id": 2,
+      "subjectId": 1
+    },
+    {
+      "firstName": "Daenerys ",
+      "lastName": "Targaryen",
+      "id": 3,
+      "subjectId": 1
+    }
+  ],
+  "subjects":[
+    {
+      "name": "Java",
+      "id": 1
+      },
+    {
+      "name": "Rest Assured",
+      "id": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
